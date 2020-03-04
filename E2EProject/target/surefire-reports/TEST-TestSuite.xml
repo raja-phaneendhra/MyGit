@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="110.735" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="PATH" value="/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/E2E/7/display/redirect"/>
+    <property name="HUDSON_HOME" value="/Users/Raja/.jenkins"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/E2E/7/display/redirect?page=changes"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="97177ae5f96725bf"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/Raja/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.6.3 /Users/Raja/.jenkins/war/WEB-INF/lib/remoting-3.36.1.jar /Users/Raja/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/Raja/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 58660"/>
+    <property name="maven.home" value="/Users/Raja/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.6.3"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="POM_GROUPID" value="Academy"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home"/>
+    <property name="JENKINS_HOME" value="/Users/Raja/.jenkins"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="maven3.interceptor" value="/Users/Raja/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="PATH+MAVEN" value="/Users/Raja/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.6.3/bin"/>
+    <property name="maven3.interceptor.common" value="/Users/Raja/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.vMRLkpK9ex/Render"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="Raja"/>
+    <property name="JAVA_MAIN_CLASS_415" value="Main"/>
+    <property name="POM_ARTIFACTID" value="E2EProject"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="WORKSPACE" value="/Users/Raja/E2EProject"/>
+    <property name="java.io.tmpdir" value="/var/folders/qc/jcf2p9615cq09bdt0pglxv5r0000gn/T/"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="JOB_BASE_NAME" value="E2E"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.library.path" value="/Users/Raja/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/E2E/7/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="POM_DISPLAYNAME" value="E2EProject"/>
+    <property name="com.apple.java.jvmTask" value="CommandLine"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/E2E/"/>
+    <property name="java.class.path" value="/Users/Raja/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/Raja/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.6.3/boot/plexus-classworlds-2.6.0.jar:/Users/Raja/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.6.3/conf/logging"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="MAVEN_HOME" value="/Users/Raja/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.6.3"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="maven.conf" value="/Users/Raja/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.6.3/conf"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="LOGNAME" value="Raja"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BUILD_TAG" value="jenkins-E2E-7"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/Raja"/>
+    <property name="user.language" value="en"/>
+    <property name="TMPDIR" value="/var/folders/qc/jcf2p9615cq09bdt0pglxv5r0000gn/T/"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/E2E/display/redirect"/>
+    <property name="M2_HOME" value="/Users/Raja/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.6.3"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0:0"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="path.separator" value=":"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="JOB_NAME" value="E2E"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="XPC_SERVICE_NAME" value="homebrew.mxcl.jenkins-lts"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="user.dir" value="/Users/Raja/E2EProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="HUDSON_SERVER_COOKIE" value="97177ae5f96725bf"/>
+    <property name="USER" value="Raja"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.20PtU1DQHH/Listeners"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="HOME" value="/Users/Raja"/>
+  </properties>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="18.649"/>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="8.307"/>
+  <testcase name="validateAppTitle" classname="Academy.validateTitle" time="0.075"/>
+  <testcase name="validateAppNavBar" classname="Academy.validateNavigationBar" time="0.288"/>
+</testsuite>

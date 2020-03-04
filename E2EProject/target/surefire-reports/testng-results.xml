@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-04T08:59:15Z" name="Suite" finished-at="2020-03-04T09:01:03Z" duration-ms="108219">
+    <groups>
+    </groups>
+    <test started-at="2020-03-04T08:59:15Z" name="Validating User login" finished-at="2020-03-04T09:00:31Z" duration-ms="76214">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomePage@54eb2b70]" started-at="2020-03-04T14:29:15Z" name="initialize" finished-at="2020-03-04T14:30:01Z" duration-ms="45877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@54eb2b70]" started-at="2020-03-04T14:30:01Z" name="basePageNavigation" data-provider="getData" finished-at="2020-03-04T14:30:20Z" duration-ms="18622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@54eb2b70]" started-at="2020-03-04T14:30:20Z" name="basePageNavigation" data-provider="getData" finished-at="2020-03-04T14:30:28Z" duration-ms="8330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.HomePage@54eb2b70]" started-at="2020-03-04T14:30:28Z" name="teardown" finished-at="2020-03-04T14:30:31Z" duration-ms="3372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Validating User login -->
+    <test started-at="2020-03-04T09:00:31Z" name="Validating title in the Page" finished-at="2020-03-04T09:00:50Z" duration-ms="18918">
+      <class name="Academy.validateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateTitle@46b61c56]" started-at="2020-03-04T14:30:31Z" name="initialize" finished-at="2020-03-04T14:30:43Z" duration-ms="11511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAppTitle()[pri:0, instance:Academy.validateTitle@46b61c56]" started-at="2020-03-04T14:30:43Z" name="validateAppTitle" finished-at="2020-03-04T14:30:43Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateTitle@46b61c56]" started-at="2020-03-04T14:30:43Z" name="teardown" finished-at="2020-03-04T14:30:50Z" duration-ms="7329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- Validating title in the Page -->
+    <test started-at="2020-03-04T09:00:50Z" name="App Testing" finished-at="2020-03-04T09:00:50Z" duration-ms="0">
+    </test> <!-- App Testing -->
+    <test started-at="2020-03-04T09:00:50Z" name="Validating navigation Bar" finished-at="2020-03-04T09:01:03Z" duration-ms="13056">
+      <class name="Academy.validateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateNavigationBar@7a67e3c6]" started-at="2020-03-04T14:30:50Z" name="initialize" finished-at="2020-03-04T14:31:00Z" duration-ms="9399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAppNavBar()[pri:0, instance:Academy.validateNavigationBar@7a67e3c6]" started-at="2020-03-04T14:31:00Z" name="validateAppNavBar" finished-at="2020-03-04T14:31:00Z" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateNavigationBar@7a67e3c6]" started-at="2020-03-04T14:31:00Z" name="teardown" finished-at="2020-03-04T14:31:03Z" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateNavigationBar -->
+    </test> <!-- Validating navigation Bar -->
+  </suite> <!-- Suite -->
+</testng-results>
